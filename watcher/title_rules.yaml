@@ -1,0 +1,36 @@
+# Software QA title filter (case-insensitive regex fragments).
+# Each entry is OR'd and wrapped with word boundaries (\b...\b).
+#
+# Logic:
+#   1. Title must match at least one `include` pattern.
+#   2. If it also matches `exclude`, it must match a `software_hint`
+#      (keeps real software QA; drops Electrical/HIL/technician noise).
+
+include:
+  - QA
+  - Q\.A\.
+  - Quality\s+Assurance
+  - SDET
+  - Software\s+Test
+  - Test\s+Automation
+  - Automation\s+(Engineer|Tester)
+  - Quality\s+Engineer
+
+exclude:
+  - Electrical
+  - HIL
+  - Hardware[- ]in[- ]the[- ][Ll]oop
+  - Quality\s+Testing\s+Technician
+  - Test\s+Technician
+  - Lead\s+Test\s+Technician
+
+software_hint:
+  - Software
+  - SDET
+  - Selenium
+  - Appium
+  - Cypress
+  - Playwright
+  - Automation\s+Engineer
+  - QA\s+Engineer
+  - Quality\s+Assurance\s+(Engineer|Analyst)

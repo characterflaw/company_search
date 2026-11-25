@@ -1,0 +1,96 @@
+{
+  "run_date": "2026-11-24",
+  "companies": [
+    {
+      "id": "tactacam",
+      "name": "Tactacam",
+      "careers_url": "https://job-boards.greenhouse.io/tactacam",
+      "ats": "greenhouse",
+      "jobs": [],
+      "error": null,
+      "raw_count": 8,
+      "filtered_count": 0
+    },
+    {
+      "id": "relay",
+      "name": "Relay",
+      "careers_url": "https://job-boards.greenhouse.io/relaypro",
+      "ats": "greenhouse",
+      "jobs": [],
+      "error": null,
+      "raw_count": 24,
+      "filtered_count": 0
+    },
+    {
+      "id": "realwear",
+      "name": "RealWear",
+      "careers_url": "https://www.realwear.com/careers",
+      "ats": "html",
+      "jobs": [],
+      "error": null,
+      "raw_count": 0,
+      "filtered_count": 0
+    },
+    {
+      "id": "blues",
+      "name": "Blues",
+      "careers_url": "https://blues.com/bluescareers/",
+      "ats": "html",
+      "jobs": [],
+      "error": null,
+      "raw_count": 1,
+      "filtered_count": 0
+    },
+    {
+      "id": "weavix",
+      "name": "weavix",
+      "careers_url": "https://ats.rippling.com/weavix/jobs",
+      "ats": "rippling",
+      "jobs": [],
+      "error": null,
+      "raw_count": 4,
+      "filtered_count": 0
+    },
+    {
+      "id": "moultrie",
+      "name": "Moultrie",
+      "careers_url": "https://careers.ebscoind.com/PRADCO",
+      "ats": "html",
+      "jobs": [],
+      "error": null,
+      "raw_count": 1,
+      "filtered_count": 0
+    },
+    {
+      "id": "kwema",
+      "name": "Kwema",
+      "careers_url": "https://kwema.co/",
+      "ats": "html",
+      "jobs": [],
+      "error": null,
+      "raw_count": 0,
+      "filtered_count": 0
+    },
+    {
+      "id": "slatesafety",
+      "name": "SlateSafety",
+      "careers_url": "https://slatesafety.com/careers/",
+      "ats": "html",
+      "jobs": [],
+      "error": null,
+      "raw_count": 2,
+      "filtered_count": 0
+    },
+    {
+      "id": "particle",
+      "name": "Particle",
+      "careers_url": "https://www.particle.io/careers/",
+      "ats": "html",
+      "jobs": [],
+      "error": null,
+      "raw_count": 0,
+      "filtered_count": 0
+    }
+  ],
+  "run_stamp": "2026-11-24_tue"
+}

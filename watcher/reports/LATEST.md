@@ -4,14 +4,14 @@ Baseline run: **no**
 
 ## Summary
 
-- New: 0
+- New: 1
 - Removed: 0
 - Unchanged: 0
 - Fetch errors: 0
 
 ## New
 
-_(none)_
+- **Moultrie**: [Senior Test Automation Engineer](https://careers.ebscoind.com/PRADCO/job/Senior-Test-Automation-Engineer-AL/1376817500/)
 
 ## Removed
 
@@ -32,7 +32,7 @@ _(none)_
 - RealWear: 0 software-QA match(es)
 - Blues: 0 software-QA match(es)
 - weavix: 0 software-QA match(es)
-- Moultrie: 0 software-QA match(es)
+- Moultrie: 1 software-QA match(es)
 - Kwema: 0 software-QA match(es)
 - SlateSafety: 0 software-QA match(es)
 - Particle: 0 software-QA match(es)

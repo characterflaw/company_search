@@ -55,12 +55,19 @@
     {
       "id": "moultrie",
       "name": "Moultrie",
-      "careers_url": "https://careers.ebscoind.com/PRADCO",
+      "careers_url": "https://careers.ebscoind.com/PRADCO/go/All-PRADCO-Jobs/3904900/",
       "ats": "html",
-      "jobs": [],
+      "jobs": [
+        {
+          "id": "https://careers.ebscoind.com/PRADCO/job/Senior-Test-Automation-Engineer-AL/1376817500/",
+          "title": "Senior Test Automation Engineer",
+          "url": "https://careers.ebscoind.com/PRADCO/job/Senior-Test-Automation-Engineer-AL/1376817500/",
+          "location": ""
+        }
+      ],
       "error": null,
-      "raw_count": 1,
-      "filtered_count": 0
+      "raw_count": 24,
+      "filtered_count": 1
     },
     {
       "id": "kwema",
@@ -79,7 +86,7 @@
       "ats": "html",
       "jobs": [],
       "error": null,
-      "raw_count": 0,
+      "raw_count": 2,
       "filtered_count": 0
     },
     {

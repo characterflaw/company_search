@@ -1,0 +1,37 @@
+name: QA openings watcher
+
+on:
+  schedule:
+    # 15:00 UTC ≈ 09:00 America/Chicago (CST); shifts one hour in CDT
+    - cron: "0 15 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r watcher/requirements.txt
+
+      - name: Run openings check
+        working-directory: watcher
+        run: python check_openings.py
+
+      - name: Commit snapshot and report
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(qa-watcher): weekday openings snapshot"
+          file_pattern: "watcher/snapshots/* watcher/reports/*"
+          commit_user_name: qa-openings-watcher
+          commit_user_email: qa-openings-watcher@users.noreply.github.com

@@ -1,6 +1,6 @@
-# QA openings report — 2026-11-24_tue
+# QA openings report — 2026-11-26_thu
 
-Baseline run: **yes**
+Baseline run: **no**
 
 ## Summary
 

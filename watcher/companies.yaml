@@ -42,10 +42,10 @@ companies:
 
   - id: moultrie
     name: Moultrie
-    careers_url: https://careers.ebscoind.com/PRADCO
+    careers_url: https://careers.ebscoind.com/PRADCO/go/All-PRADCO-Jobs/3904900/
     ats: html
     enabled: true
-    notes: Cams/feeders; EE/HIL roles should be filtered out
+    notes: Cams/feeders; use All Jobs listing (landing page has no per-role links)
 
   - id: kwema
     name: Kwema

@@ -1,17 +1,17 @@
-# QA openings report — 2026-11-26_thu
+# QA openings report — 2026-11-27_fri
 
 Baseline run: **no**
 
 ## Summary
 
-- New: 1
+- New: 0
 - Removed: 0
-- Unchanged: 0
+- Unchanged: 1
 - Fetch errors: 0
 
 ## New
 
-- **Moultrie**: [Senior Test Automation Engineer](https://careers.ebscoind.com/PRADCO/job/Senior-Test-Automation-Engineer-AL/1376817500/)
+_(none)_
 
 ## Removed
 
@@ -19,7 +19,9 @@ _(none)_
 
 ## Unchanged
 
-_(none)_
+_1 opening(s) still present_
+
+- Moultrie: Senior Test Automation Engineer
 
 ## Fetch errors
 
